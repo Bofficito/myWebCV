@@ -1,0 +1,20 @@
+.custom-heading {
+    font-size: 1.25rem;
+    margin: 0;
+}
+.custom-btn {
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #f0f0f0;
+    color: #333;
+    transform: translateY(-2px);
+}
+
+.card-header {
+    padding-top: 0.7rem;
+    padding-bottom: 0.4rem;
+}
