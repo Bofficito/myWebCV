@@ -1,11 +1,31 @@
 {% extends 'base.html' %}
 
 {% block index %}
+{% load static %}
+<head>
+    <title>{% block title %} Home {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
 
-<div class="container text-center mt-5">
-    <h1 class="display-4">Welcome to My Website</h1>
-    <p class="lead">Your journey to greatness starts here.</p>
-    <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary btn-lg">Get Started</a>
+<!-- Hero Section -->
+<div class="container">
+    <div class="hero-content">
+        <h1 class="gradient-text animate-fade-in">
+        Hi there! I'm Lautaro Boffi
+        </h1>
+        <p class="hero-description">
+        I am a Junior Backend developer with a passion for creating robust and scalable solutions. 
+        I love to learn new technologies and improve my skills every day.
+        </p>
+    </div>
 </div>
+<div class="container">
+    <div class="hero-content">
+        <a href="about" class="main-button"> 
+            See more About Me  
+        </a>
+    </div>
+</div>
+  
 
 {% endblock %}
